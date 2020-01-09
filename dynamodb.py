@@ -13,7 +13,7 @@ import boto3
 
 class Dynamodb:
   """
-  Dynamodb SDK Controller
+  Dynamodb Boto3 Controller
   """
 
   def __init__(self, tableName, awsCred=None):
@@ -167,5 +167,3 @@ class Dynamodb:
 
   
 
-
- 
